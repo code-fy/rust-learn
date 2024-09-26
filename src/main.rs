@@ -1,4 +1,5 @@
 mod oneday;
+mod twoday;
 
 fn greet_world() {
     let southern_germany = "Grüß Gott!";
@@ -43,6 +44,7 @@ struct Struct{
 
 fn main() {
     oneday::oneday::oneday();
+    twoday::twoday::hello_twoday();
     let f = 5;
     let f = f+1;
     let u=90;
@@ -58,7 +60,7 @@ fn main() {
     [..,c,d,_,_] = [1,2,3,4,5,6];
     println!("{},{}",c,d);
     Struct {e,..} =  Struct{e:5};
-    assert_eq!([1,2,1,4,5],[a,b,c,d,e]);
+    assert_eq!([1,2,3,4,5],[a,b,c,d,e]);
     let mut x = 5;
     println!("{:?}",[a,b,c,d,e]);
     println!("The value of x is :{}",x);
