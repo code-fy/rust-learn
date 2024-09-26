@@ -1,3 +1,5 @@
+mod oneday;
+
 fn greet_world() {
     let southern_germany = "Grüß Gott!";
     let chinese = "腻害";
@@ -40,6 +42,7 @@ struct Struct{
 }
 
 fn main() {
+    oneday::oneday::oneday();
     let f = 5;
     let f = f+1;
     let u=90;

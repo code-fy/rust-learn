@@ -3,4 +3,9 @@ name = "rust-learn"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "rust_learn"  # 确保库名和项目名一致
+path = "src/lib.rs"
+
 [dependencies]
+criterion = "0.5.1"
