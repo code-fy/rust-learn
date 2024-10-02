@@ -2,6 +2,7 @@ mod oneday;
 mod twoday;
 mod threeday;
 mod fourday;
+mod fiveday;
 
 fn greet_world() {
     let southern_germany = "Grüß Gott!";
