@@ -4,6 +4,7 @@ pub trait road_bike {
     
 }
 
+
 struct Student {
     money:i32,
     name : String,
